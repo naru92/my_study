@@ -1,7 +1,7 @@
 # Visual Studio Code, Ruby를 통한 git Blog 생성
 
 
-### Hyjack 템플릿사용
+## Hyjack 템플릿사용
 
 * 커스텀 할 목록
 1. _data
@@ -13,7 +13,7 @@
 7. about.md
 
 ---
-#### 1. _data
+### 1. _data
 
 resume.yml - hyjack primium시 해당
 
@@ -78,4 +78,20 @@ vvs:
     
 ```
 countires.yml - 커스텀 사항없음 <br>
-resume.json - 커스텀 사항없음
+resume.json - 커스텀 사항없음<br>
+
+### featured.tags (왼 사이드바)
+
+  class.md
+  ```
+  layout: list
+  title: Blog
+  slug: blog
+  menu: true
+  submenu: true
+  order: 4
+  description: >
+  수업  
+  ```
+  
+
