@@ -13,4 +13,17 @@
 7. about.md
 
 ---
+#### 1. _data
 
+resume.yml - hyjack primium시 해당
+
+authors.yml - 저자 커스텀
+```
+vvs:
+  name:              닉네임
+  email:             저자 메일
+  
+  about:             |
+    간단한 자기소개 기입
+    
+```
