@@ -77,3 +77,5 @@ vvs:
     rss:             https://khw11044.github.io/feed.xml
     
 ```
+countires.yml - 커스텀 사항없음
+resume.json - 커스텀 사항없음
