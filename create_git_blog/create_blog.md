@@ -80,7 +80,7 @@ vvs:
 countires.yml - 커스텀 사항없음 <br>
 resume.json - 커스텀 사항없음<br>
 
-### 2. featured.category (왼 사이드바)
+### 2. featured.category (왼 사이드바 메뉴)
 
  
 ##### - featured.category 커스텀 메뉴
@@ -105,3 +105,18 @@ menu: false
 order: 1
 ```
 
+### 3. _include (왼 사이드바)
+
+##### - footer.html
+```
+<footer>
+  <hr/>
+  {% if site.copyright.size > 0 %}
+    {{ site.copyright | markdownify }}
+  {% endif %}
+  <p>
+    <code>Powered by <a href="https://khw11044.github.io/">블로그 이름</a></code>
+  </p>
+</footer>
+
+```
