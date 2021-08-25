@@ -105,7 +105,7 @@ menu: false
 order: 1
 ```
 
-### 3. _include (왼 사이드바)
+### 3. _include
 
 ##### - footer.html
 ```
@@ -119,4 +119,9 @@ order: 1
   </p>
 </footer>
 
+```
+##### - sidebar.html
+**검색창 추가 (예정)**
+**조회수 추가 (예정)**
+```
 ```
