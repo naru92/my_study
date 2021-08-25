@@ -84,14 +84,14 @@ resume.json - 커스텀 사항없음<br>
 
   class.md
   ```
-  layout: list
-  title: Blog
-  slug: blog
-  menu: true
-  submenu: true
-  order: 4
+  layout: list #레이아웃 설정
+  title: Blog #섹션 제목
+  slug: blog  #섹션 제목과 맞춤
+  menu: true  #큰 메뉴 활성화
+  submenu: true #서브메뉴 활성화
+  order: 4    #카테고리에 보여질 순서
   description: >
-  수업  
+  <메뉴에 대한 간단한 설명란>  
   ```
   
 
