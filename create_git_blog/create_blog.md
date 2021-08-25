@@ -80,9 +80,10 @@ vvs:
 countires.yml - 커스텀 사항없음 <br>
 resume.json - 커스텀 사항없음<br>
 
-### 2. featured.tags (왼 사이드바)
+### 2. featured.category (왼 사이드바)
 
-  ．class.md
+ 
+##### featured.category 커스텀 메뉴
   
   ```
   layout: list  → 레이아웃 설정
