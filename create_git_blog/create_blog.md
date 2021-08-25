@@ -1,1 +1,1 @@
-#Visual Studio Code, Ruby를 통한 git Blog생성
+#Visual Studio Code, Ruby를 통한 git Blog 생성
