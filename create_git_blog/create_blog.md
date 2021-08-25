@@ -83,7 +83,7 @@ resume.json - 커스텀 사항없음<br>
 ### 2. featured.category (왼 사이드바)
 
  
-##### featured.category 커스텀 메뉴
+##### - featured.category 커스텀 메뉴
   
   ```
   layout: list  → 레이아웃 설정
@@ -95,5 +95,13 @@ resume.json - 커스텀 사항없음<br>
   description: >
   <메뉴에 대한 간단한 설명란>  
   ```
-  
+##### - featured.tags 커스텀 메뉴(큰메뉴 밑에 사이드 메뉴)
+```
+layout: tag-blog
+title: NLP
+slug: nlp
+category: blog → 어디 그룹의 하위 메뉴인지
+menu: false
+order: 1
+```
 
