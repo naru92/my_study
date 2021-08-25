@@ -20,6 +20,7 @@ resume.yml - hyjack primium시 해당
 authors.yml - 저자 커스텀
 ```
 ## authors.yml ##
+
 vvs:
   name:              <닉네임>
   email:             <메일주소>
