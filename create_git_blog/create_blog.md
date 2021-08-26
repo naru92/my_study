@@ -2,8 +2,6 @@
 
 
 ## Hyjack 템플릿사용
-
-* bundle exec jekyll serve - 터미널 서버접속 명령어 *
  
 * 커스텀 할 목록
 1. _data
@@ -15,6 +13,8 @@
 7. about.md
 
 ---
+*bundle exec jekyll serve - 터미널 서버접속 명령어*
+
 ### 1. _data
 
 resume.yml - hyjack primium시 해당
