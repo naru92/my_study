@@ -202,7 +202,7 @@ $(document).ready(function() {
       <div style="clear: both;"></div>
    </form>
   ```
-<br>
+
 ~~조회수 추가 (완료)~~ 
 https://hits.seeyoufarm.com/ <- 조회수 쉽게 만들게 도와줌!<br>
 
@@ -232,7 +232,7 @@ analylist.html 추가
 
 ```
 
-<br>
+
 ~~댓글 추가 (완료)~~ 
 ##### https://utteranc.es/ 이용<br>
 ###### 블로그 댓글 저장소 필요하기 때문에 생성해야함 ❗❗
