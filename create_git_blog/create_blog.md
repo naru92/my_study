@@ -157,7 +157,11 @@ exclude_from_search: true
 
 <script>
 $(document).ready(function() {
-  $('#tipue_search_input').tipuesearch();
+  $('#tipue_search_input').tipuesearch({
+    'wholeWords' : false,
+    'showTime'   : false,
+    'minimumLength' : 1 //최소 검색 글자 수
+  });
 });
 </script>
 
@@ -171,11 +175,33 @@ $(document).ready(function() {
          pages: false
          collections: []
      exclude:
-         files: [search.html, index.html, tags.html]
+         files: [search.html, index.html, tags.html] //검색 포함시키지 않을 영역
          categories: []
          tags: []
   ```
   
+  *head.html 파일에 코드추가*
+  ```
+  <!-- tipuesearch -->
+ <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+ <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+ <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
+
+  ```
+  
+  *sidebar.html에 코드추가*
+  ```
+  <form action="/search">
+      <div class="tipue_search_left">
+        <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+      </div>
+      <div class="tipue_search_right">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{1,}" title="At least 1 characters" required></div>
+      <div style="clear: both;"></div>
+   </form>
+  ```
 **조회수 추가 (예정)** <br>
 
 ```
@@ -359,3 +385,5 @@ order: 1 //메뉴 맨위
 ---
 ```
 
+<hr/>
+## 블로그 관리하기
