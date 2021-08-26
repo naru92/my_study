@@ -1,5 +1,5 @@
 # Visual Studio Code, Ruby를 통한 git Blog 생성
-
+코드: https://github.com/naru92/naru92.github.io<br>
 
 ## Hyjack 템플릿사용
  
