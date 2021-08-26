@@ -210,7 +210,18 @@ $(document).ready(function() {
 
 ##### https://utteranc.es/ 이용<br>
 ###### 블로그 댓글 저장소 필요하기 때문에 생성해야함 ❗❗
+
+utterance 위젯 문서에 나온대로 설정후 코드 복사후
+_include 의 comment.html에 코드를 복사
+
 ```
+<script src="https://utteranc.es/client.js"
+  repo="naru92/blog-reply-repository"
+  issue-term="pathname"
+  theme="boxy-light"
+  crossorigin="anonymous"
+  async>
+ </script>
 ```
 ### 4. _posts -게시글관리
 ##### 확장자 .md 기본 형식은 아래와 같다.
