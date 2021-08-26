@@ -387,5 +387,7 @@ order: 1 //메뉴 맨위
 
 
 ## 블로그 관리하기
-https://prose.io/
-연동시 Jekyll 기반의 정적 컴파일이 필요없이 HTML로 변환해줌
+https://prose.io/<br>
+연동시 Jekyll 기반의 정적 컴파일이 필요없이 HTML로 변환해줌<br>
+게시물은 _post 에 
+
