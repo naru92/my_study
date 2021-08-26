@@ -120,10 +120,45 @@ order: 1
 </footer>
 
 ```
-##### - sidebar.html
+##### - sidebar.html -
+
+```
+//image div 생성
+
+   <div class="sidebar-box">
+        {% if author.picture %}
+          {% include srcset-img.html class="me" img=author.picture alt=author.name %}
+        {% endif %}
+   </div>
+
+```
 
 **검색창 추가 (예정)** <br>
 **조회수 추가 (예정)** <br>
 
 ```
+```
+### 4. _posts -게시글관리
+// 확장자 .md 기본 형식은 아래와 같다.
+```
+---
+layout: post
+title:  "[GithubPages] 01.하루만에 깃허브 블로그 만들기" //제목
+subtitle:   "개요" //부제목
+date: 2020-12-26 11:45:51 +0900 //작성날짜
+categories: study //카테고리(메뉴)
+tags: githubpage //글의 태그관련
+comments: true //댓글 가능여부
+related_posts:
+    - category/_posts/study/2020-12-26-making-blog-02.md //관련 게시글을 다음과 같이 명시
+---
+
+이 공간은 내용을 명시한다.
+
+# 이미지
+
+
+![그림2](../../../../assets/img/study/githubpages/1.png){: width="400" height="400} // 이미지넣을때 다음과 같은 형식
+
+
 ```
