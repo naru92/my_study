@@ -395,3 +395,6 @@ order: 1 //메뉴 맨위
 *gemfile -> gem 'jekyll-admin', group: :jekyll_plugins 입력* <br>
 터미널에 명령어 gem install 후, 접속 url 맨뒤에 '/admin ' 추가
 
+3. atom & markdown pakage로 관리<br>
+다른것들과 비슷하나 결과를 보면서 작업할수 있다는 점과 이미지 업로드시 <br>
+드래그 앤 드롭으로 편리하게 관리 가능한 점이 좋다
