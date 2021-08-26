@@ -204,7 +204,8 @@ $(document).ready(function() {
   ```
 <br>
 ~~조회수 추가 (완료)~~ 
-https://hits.seeyoufarm.com/ <- 조회수 쉽게 만들게 도와줌!
+https://hits.seeyoufarm.com/ <- 조회수 쉽게 만들게 도와줌!<br>
+
 ```
 //seeyofarm
 //sidebar.html에 코드추가
