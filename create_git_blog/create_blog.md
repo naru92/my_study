@@ -163,8 +163,9 @@ related_posts:
 
 ```
 ### 5. assets -블로그 스타일, 포스팅 이미지보관
-//파비콘 설정
-https://www.favicon-generator.org/ ← 파비콘 만들기
+
+#### 파비콘 설정
+##### https://www.favicon-generator.org/ ← 파비콘 만들기
 
 ### 6. _config //페이지 구성정보, 환경변수 설정
 ```
