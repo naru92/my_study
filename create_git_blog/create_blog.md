@@ -393,7 +393,8 @@ order: 1 //메뉴 맨위
 
 2. admin 셋팅 하기<br>
 *gemfile -> gem 'jekyll-admin', group: :jekyll_plugins 입력* <br>
-터미널에 명령어 gem install 후, 접속 url 맨뒤에 '/admin ' 추가
+터미널에 명령어 gem install 후, 접속 url 맨뒤에 '/admin ' 추가후 관리페이지에서
+원하는 블로그 관리 가능
 
 3. atom & markdown pakage로 관리<br>
 다른것들과 비슷하나 결과를 보면서 작업할수 있다는 점과 이미지 업로드시 <br>
