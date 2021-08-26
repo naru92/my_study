@@ -306,7 +306,7 @@ sass:
 
 ```
 
-### 7. about(post폴더 밖에 portfolio.md 따로생성함)
+### 7. about( post폴더 밖에 portfolio.md 이름으로 따로 생성 )
 
 ```
 ---
