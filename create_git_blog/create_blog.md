@@ -217,6 +217,7 @@ https://hits.seeyoufarm.com/ <- 조회수 쉽게 만들게 도와줌!
 </div>
 
 #구글 애널리틱스(방문자통계 api)
+```
 #analylist.html 추가
 <script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0BH3L5JJY1"></script>
@@ -228,6 +229,7 @@ https://hits.seeyoufarm.com/ <- 조회수 쉽게 만들게 도와줌!
 </script>
 
 ```
+
 <br>
 ~~댓글 추가 (완료)~~ 
 ##### https://utteranc.es/ 이용<br>
