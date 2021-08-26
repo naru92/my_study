@@ -306,4 +306,14 @@ sass:
 
 ```
 
+### 7. about(post폴더 밖에 portfolio.md 따로생성함)
+
+```
+---
+layout: about //about 형식
+title: Portfolio //포트폴리오
+menu: true //메뉴에 나타날지
+order: 1 //메뉴 맨위
+---
+```
 
