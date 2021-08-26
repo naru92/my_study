@@ -272,8 +272,7 @@ related_posts:
 # 이미지
 
 
-![그림2](../../../../assets/img/study/githubpages/1.png){: width="400" height="400} // 이미지넣을때 다음과 같은 형식
-
+![그림2](../../../../<파일url이 오는 위치>){: width="400" height="400} // 이미지넣을때 다음과 같은 형식
 
 
 ### 5. assets -블로그 스타일, 포스팅 이미지보관
