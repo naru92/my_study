@@ -13,7 +13,7 @@
 7. about.md
 
 ---
-*bundle exec jekyll serve - 터미널 서버접속 명령어*
+😀 *bundle exec jekyll serve - 터미널 서버접속 명령어* 😀
 
 ### 1. _data
 
