@@ -245,6 +245,8 @@ _include 의 comment.html에 코드를 복사
   async>
  </script>
 ```
+
+
 ### 4. _posts -게시글관리
 ##### 확장자 .md 기본 형식은 아래와 같다.
 ```
@@ -259,7 +261,7 @@ comments: true //댓글 가능여부
 related_posts:
     - category/_posts/study/2020-12-26-making-blog-02.md //관련 게시글을 다음과 같이 명시
 ---
-
+```
 이 공간은 내용을 명시한다.
 
 # 이미지
@@ -268,7 +270,7 @@ related_posts:
 ![그림2](../../../../assets/img/study/githubpages/1.png){: width="400" height="400} // 이미지넣을때 다음과 같은 형식
 
 
-```
+
 ### 5. assets -블로그 스타일, 포스팅 이미지보관
 
 #### 파비콘 설정
