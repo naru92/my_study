@@ -387,7 +387,11 @@ order: 1 //메뉴 맨위
 
 
 ## 블로그 관리하기
-https://prose.io/<br>
+1. https://prose.io/<br>
 연동시 Jekyll 기반의 정적 컴파일이 필요없이 HTML로 변환해줌<br>
 게시물은 _post 에 있음
+
+2. admin 셋팅 하기<br>
+*gemfile -> gem 'jekyll-admin', group: :jekyll_plugins 입력* <br>
+터미널에 명령어 gem install 후, 접속 url 맨뒤에 '/admin ' 추가
 
