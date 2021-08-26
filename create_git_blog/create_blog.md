@@ -203,10 +203,31 @@ $(document).ready(function() {
    </form>
   ```
 **조회수 추가 (예정)** <br>
+https://hits.seeyoufarm.com/ <- 조회수 쉽게 만들게 도와줌!
+```
+#seeyofarm
+#*sidebar.html에 코드추가*
+<div style="text-align:right;">
+        <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+          target="_blank">
+          <img
+          src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url            }}&count_bg=%23293786&title_bg=%23555555&icon=bilibili.svg&icon_color=%23E7E7E7&title=.&edge_flat=false"/>
+        </a>
+</div>
+
+#구글 애널리틱스(방문자통계 api)
+#analylist.html 추가
+<script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0BH3L5JJY1"></script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0BH3L5JJY1');
+</script>
 
 ```
-```
-**댓글 추가 (예정)** <br>
+~~댓글 추가 (완료)~~ <br>
 
 ##### https://utteranc.es/ 이용<br>
 ###### 블로그 댓글 저장소 필요하기 때문에 생성해야함 ❗❗
