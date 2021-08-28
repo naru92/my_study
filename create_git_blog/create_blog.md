@@ -152,6 +152,7 @@ order: 1
 </div>
 ```
 <br />
+
 ~~검색창 추가 (완료)~~ 
 ##### serach.html 작성
 ```
@@ -181,7 +182,6 @@ $(document).ready(function() {
   });
 });
 </script>
-
 ```
 
  *_cofig.yml 파일에 코드 추가*
