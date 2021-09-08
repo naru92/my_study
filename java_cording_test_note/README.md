@@ -7,5 +7,5 @@
   - int : -2,147,483,648 ~ 2,147,483,647 이다.
   - long : -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807 이다
   - BigInteger(클래스) - 제한없음
-    - BigInteger bigInteger = new BigInteger("숫자") 선언후 사용, 연산시 bigInteger.사용할연산메서드 로 사용
+    - BigInteger bigInteger = new BigInteger("숫자") 선언후 사용,<br/> 연산시 bigInteger.사용할연산메서드 로 사용
     
