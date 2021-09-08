@@ -3,6 +3,13 @@
 ## JAVA로 코딩테스트 하기
 <br />
 
+### 시간측정
+- System.currentTimeMillis(); //정적 클래스 System의 currentTimeMillis(); 이용
+  - 코드 실행 전, 코드 실행 후 두 번 사용
+  - 실행 후 - 실행 전 차이값으로 시간 측정
+  - currentTimeMillis() , 밀리초기 때문에 초로 변환시 /1000 를 해줘서 초로 변환
+
+
 ### 연산자
 / : 몫 <br />
 % : 나머지
